@@ -13,18 +13,6 @@ Push the tag to the origin repository
 git push origin TAG
 ```
 
-Show refs, tags
-
-```
-git show-ref
-```
-
-Show remote tags
-
-```
-git ls-remote --tags
-```
-
 Delete a tag locally
 
 ```
@@ -35,6 +23,18 @@ Delete a remote tag
 
 ```
 git push --delete origin TAG
+```
+
+Show refs, tags
+
+```
+git show-ref
+```
+
+Show remote tags
+
+```
+git ls-remote --tags
 ```
 
 # Go
@@ -48,9 +48,10 @@ git push orign $VERSION
 git push
 ```
 
-List the version
+List the version or the latest
 
 ```
 go list -m github.com/myrepo/mymodule@${$VERSION}
+go list -m github.com/myrepo/mymodule@latest
 ```
 
