@@ -48,5 +48,9 @@ git push orign $VERSION
 git push
 ```
 
-List the
+List the version
+
+```
 go list -m github.com/myrepo/mymodule@${$VERSION}
+```
+
