@@ -39,6 +39,7 @@ git ls-remote --tags
 
 # Go
 Publishing a Go module with a version
+https://go.dev/doc/modules/publishing
 
 ```
 git tag $VERSION
@@ -62,4 +63,3 @@ go get github.com/myrepo/mymodule@${$VERSION}
 go get github.com/myrepo/mymodule@latest
 ```
 
-For more information look at https://go.dev/ref/mod#goproxy-protocol
