@@ -1,6 +1,30 @@
 # git_commands
 Useful git commands
 
+New branch
+
+```
+git branch newbranch
+```
+
+Push the branch to the git server
+
+```
+git push -u origin HEAD
+```
+
+Delete a local branch
+
+```
+git branch -D branch_name
+```
+
+Delete a remote branch
+
+```
+git push -d origin branch_name
+```
+
 Add a tag
 
 ```
