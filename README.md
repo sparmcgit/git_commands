@@ -55,3 +55,11 @@ go list -m github.com/myrepo/mymodule@${$VERSION}
 go list -m github.com/myrepo/mymodule@latest
 ```
 
+Get the module or the latest in order to import it
+
+```
+go get github.com/myrepo/mymodule@${$VERSION}
+go get github.com/myrepo/mymodule@latest
+```
+
+For more information look at https://go.dev/ref/mod#goproxy-protocol
