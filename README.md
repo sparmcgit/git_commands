@@ -66,7 +66,6 @@ Publishing a Go module with a version
 https://go.dev/doc/modules/publishing
 
 ```
-git tag $VERSION
 git commit -am "Changes for my module $VERSION"
 git tag $VERSION
 git push orign $VERSION
