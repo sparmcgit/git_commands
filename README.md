@@ -4,7 +4,7 @@ Useful git commands
 New branch
 
 ```
-git branch newbranch
+git branch branch_name
 ```
 
 Push the branch to the git server
